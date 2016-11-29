@@ -1,0 +1,13 @@
+def big(b):
+if b == 0:
+return 2
+return 3 + big(b[0])
+def make_bank():
+bucks = 0
+def issue(n):
+nonlocal bucks
+bucks = (bucks, n)
+return big(bucks)
+return issue
+s = make_bank()
+s(1)

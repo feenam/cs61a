@@ -1,0 +1,7 @@
+extend_list():
+
+iteration - two while loops
+
+recursion - base case: s2 is Link.empty
+			elif: s1.rest, s2.rest
+			else: s1.rest, s2

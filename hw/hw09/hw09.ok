@@ -1,0 +1,21 @@
+{
+    "name": "Homework 9",
+    "endpoint": "cal/cs61a/su15/hw09",
+    "src": [
+        "hw09.scm"
+    ],
+    "tests": {
+        "tests/cadr-caddr.py": "ok_test",
+        "tests/sign.py": "ok_test",
+        "tests/ordered.py": "ok_test",
+        "tests/deep-map.py": "ok_test"
+    },
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "unlock",
+        "grading",
+        "backup"
+    ]
+}

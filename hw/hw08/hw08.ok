@@ -1,0 +1,25 @@
+{
+    "name": "Homework 8",
+    "endpoint": "cal/cs61a/su15/hw08",
+    "src": [
+        "hw08.py"
+    ],
+    "tests": {
+        "hw08.py": "doctest",
+        "tests/contains.py": "ok_test"
+    },
+    "default_tests": [
+        "contains",
+        "ScaleIterator",
+        "scale",
+        "merge",
+        "make_s"
+    ],
+    "protocols": [
+        "restore",
+        "file_contents",
+        "analytics",
+        "grading",
+        "backup"
+    ]
+}
